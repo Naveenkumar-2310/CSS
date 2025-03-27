@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+    <head>
+    <style>
+    body{
+        position: absolute;
+    }    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    }
+    nav li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    }
+    .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    }
+    .dropdown:hover .dropdown-menu {
+    display: block;
+    }
+    </style>
+    </head>
+    <body>
+    <nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li class="dropdown">
+    <a href="#">Services</a>
+    <menu class="dropdown-menu">
+        <ul>
+            <li><a href="#"> web Design</a> </li>
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">SEO</a></li>
+        </ul>
+    </menu>
+    </li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(40, 38, 38);
+}
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+h4 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  color: rgba(2, 7, 7, 0.542);
+}
+.container {
+  background-color: #f3f1ea85;
+  height: 150px;
+  margin: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+.flex_item {
+  border-left: 1px solid black;
+  height: fit-content;
+}
+.para {
+  font-family: "Yrsa", serif;
+  text-align: left;
+  padding: 5px;
+  font-size: small;
+}
+.head {
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+}
+#one {
+  font-size: 24px;
+}
+#two {
+  font-size: 22px;
+}
+.font {
+  font-size: 17px;
+  font-weight: bold;
+}
+#fourth {
+  font-size: 17px;
+}
+span {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  font-family: "Playfair Display", serif;
+}
+.column01 {
+  border: none;
+}
+#author01 {
+  border: 0;
+  font-size: 17px;
+  font-weight:100;
+}
+#author03 {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  font-weight: 150;
+}
+.author1 {
+  font-weight: bold;
+}
+#author05 {
+  font-weight: bold;
+}    

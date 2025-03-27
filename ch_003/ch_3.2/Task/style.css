@@ -1,0 +1,13 @@
+div+p{
+    background-color: purple;
+}
+div>p{
+    background-color: yellow;
+    font-style: italic;
+}
+div~p{
+    color: blue;
+}
+section>p{
+    font-style: italic;
+}

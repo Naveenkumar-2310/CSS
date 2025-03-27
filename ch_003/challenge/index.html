@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- form for tour booking -->
+    <form action="" method="post">
+        <!-- heading section -->
+        <h1>Tour Booking Form</h1>
+        <h3>Note: * Mandatory Fields </h3>
+        <!-- label and inputs if the form -->
+        <label for="fullName" class="container">Full Name<span>*</span>:</label>
+        <input type="text" name="fname" >  
+        <label for="email" class="container">Email Address<span>*</span>:</label>
+        <input type="email" name="email" > 
+         <!--selecting multiple choices using checkbox  -->
+        <label for="package" class="container">Select Tour Package<span>*</span>:</label>
+        <select>
+            <option value="select">Select Package</option>
+            <option value="South India">South India</option>
+            <option value="US">US</option>
+            <option value="London">London</option>
+        </select>  
+        <label for="arrival" class="container">Arrival date<span>*</span>:</label>
+        <input type="date" name="date" value="date">
+        <label for="persons" class="container">Number of persons<span>*</span>:</label>
+        <input type="number" name="number" value="number"> 
+        <label for="avail" class="container">What would you want to avail?<span>*</span></label> 
+        <input type="checkbox" name="boarding" value="boarding"><label for="boarding" class="title">Boarding</label><br>
+        <input type="checkbox" name="food" value="food"><label for="food" class="title">Food</label><br>
+        <input type="checkbox" name="sightSeeing" value="sightSeeing"><label for="sightSeeing" class="title">Sight seeing</label>
+        <label for="terms" class="container">Terms and conditions<span>*</span></label>
+        <input type="radio" name="terms" value="agree"><label for="agree">I Agree</label>
+<!-- Button for submit -->
+        <button type="submit">Book Now</button>
+    </form>
+</body>
+</html>
