@@ -1,0 +1,89 @@
+/* Insert the font url to the file */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+/* Style the body section */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 174, 0);
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+/* Style the container1 section */
+.container1{
+    padding-top: 5px;
+    background-color: white;
+    width: 80%;
+    height: 575px;
+    margin: 0 auto;
+}
+/* style the header section */
+.header{
+    background-color: black;
+    height: 125px;
+    color: rgb(255, 221, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width:98%;
+}
+/* style the heading section */
+.heading{
+    margin: 24px;
+}
+.header h4{
+    font-size: 24px;
+}
+.header p{
+    font-size: 16px;
+    margin-left: 2px ;
+}
+/* style the menu */
+nav {
+    background-color: #000;
+    overflow: hidden;
+    width: 98%;
+    margin: 1px auto;   
+}
+/* style the ul */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* style the list */
+nav ul li {
+    float: left;
+    border-right: 1px solid white;
+    padding: 0 25px;
+}
+/* style <a> */
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* style the span tag */
+span{
+    font-weight: bold;
+}
+/* style the a inside the id para */
+#para a{
+    color: black;
+}
+/* style the para */
+#para{
+    width: 613px;
+    margin-top: -10px;
+}
+/* style the main class */
+.main{
+    margin-left: 30px;
+}
+/* style the content class */
+.content{
+    margin-left: 10px;
+}

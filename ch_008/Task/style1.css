@@ -1,0 +1,89 @@
+body{
+    background-color: rgba(41, 33, 33, 0.652);
+    color: white;
+    text-align: center;
+}
+h1{
+   
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icon{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 100px;
+}
+
+.fa-brands{
+    background-color: black;
+    color: gray;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.icon1{
+    padding: 10px 20px;
+    animation: glow 2s ease-in-out  1 normal both running;
+
+}
+.icon2{
+    padding: 10px 15px;
+    animation: glow1 2s ease-in-out 2s 1 normal both running;
+
+}
+.icon3{
+    padding: 10px 12px;
+    animation: glow2 2s ease-in-out 4s 1 normal both running;
+
+}
+@keyframes glow{
+    0% {
+        box-shadow: 0 0 0 0 blue;
+        filter: blur(90);
+    }
+    50% {
+        box-shadow: 0 0 10px 5px blue;
+        color: blue;
+        filter: blur(90);
+        
+    }
+    100% {
+        box-shadow: 0 0 0 0px blue;
+        filter: blur(90);
+    }
+}
+@keyframes glow1{
+    0% {
+        box-shadow: 0 0 0 0 deeppink;
+        filter: blur(90);
+    }
+    50% {
+        box-shadow: 0 0 10px 5px deeppink;
+        color: deeppink;      
+        filter: blur(90);
+    }
+    100% {
+        box-shadow: 0 0 0px 0px deeppink;
+        filter: blur(90);
+    }
+}
+@keyframes glow2{
+    0% {
+        box-shadow: 0 0 0 0 rgb(222, 7, 7);
+        filter: blur(90);
+    }
+    50% {
+        box-shadow: 0 0 10px 5px rgb(222, 7, 7);
+        color: rgb(222, 7, 7);
+        filter: blur(90);
+       
+    }
+    100% {
+        box-shadow: 0 0 0px 0px rgb(222, 7, 7);
+        filter: blur(90);
+        
+    }
+}

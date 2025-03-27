@@ -1,0 +1,6 @@
+a{
+    font-size: larger;
+}
+a[href$=pdf]{
+    color: red;
+}

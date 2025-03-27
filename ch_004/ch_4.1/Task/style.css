@@ -1,0 +1,96 @@
+/* import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+/* Style the body section */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* style the h1 element */
+h1{
+    font-family:serif;
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding: 3px;
+    font-size: 70px;
+}
+/* style the h5 element */
+h5{
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin:0;
+    padding: 10px;
+    color: rgba(56, 53, 53, 0.755);
+}
+/* style the whole content */
+#aside{
+    display: flex;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+}
+/* style the whole content's para element */
+#aside p{
+    font-size: small;
+    text-align: start;
+}
+/* style the first sub-heading section */
+.sub-heading{
+    border-right: 2px solid black;
+    margin-right: 0 10px;
+    padding: 0 10px;
+}
+/* Style the 4th and 5th section's h2 element */
+.sub-heading h2,.sub-heading1 h2{
+    color: rgba(56, 53, 53, 0.755);
+}
+/* style the first subheading and subheading's para element */
+.para{
+    font-family: "Playfair Display", serif;
+    font-size: 10px;
+    padding: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    margin-right: 10px;
+    font-weight: bold;
+}
+/* style the subtitle section */
+.subtitle{
+    border-right: 2px solid black;
+    margin: 10px;
+}
+/* style the subtitle's para element */
+.para1{
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+}
+/* style the interesting title section */
+.interesting{
+    border-right: 2px solid black;
+    margin-top: 0;
+    padding-right: 10px;
+}
+/* style the interesting title's para section */
+.para2{
+    font-family: "Playfair Display", serif;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+/* style the subheading section */
+.sub-heading1{
+    border-right: 2px solid black;
+    margin: 10px;
+}
+/* style the subheading section's para section */
+.para3{
+    font-family: "Playfair Display", serif;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+/* style the h2 element */
+h2{
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    text-align: center;
+}

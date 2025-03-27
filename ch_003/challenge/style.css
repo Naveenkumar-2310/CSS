@@ -1,0 +1,86 @@
+/* CSS property for body section */
+body{
+    background-image: url(travelform-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+/* CSS property for heading section */
+h1{
+    color: white; 
+    padding: 0;
+    margin: 0;
+}
+h3{
+    color: rgba(235, 24, 24, 0.816);
+    margin: 5px 0;
+    border-bottom: 1px solid white;
+}
+/* CSS property for One letter color using span */
+span{
+    color: red;
+}
+/* CSS property for label section using class container */
+.container{
+    font-weight: bold;
+    display: block;
+    margin: 15px 0;
+}
+/* CSS property for inputs text,email,select,number */
+input[type="text"], input[type="email"], input[type="select"], input[type="number"]{
+    width: 30%;
+    height: 15px;
+    margin-bottom: 5px;
+    border: none; 
+}
+/* CSS property for total form */
+form{
+    padding-left: 15px;
+}
+/* CSS property for input checkbox */
+input[type="checkbox"] { 
+    appearance: none;
+    outline: 2px solid black;
+    width: 10px;
+    height: 10px;
+    display: inline;
+    margin-right: 10px;
+}
+/* CSS property for input radio */
+input[type="radio"] { 
+    appearance: none;
+    outline: 2px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/* CSS property for input select */
+select{
+    color: rgba(0, 0, 0, 0.195);
+    width: 30%;
+    border: none;  
+    margin-bottom: 10px;
+    color: none;  
+}
+/* CSS property for input date*/
+input[type="date"]{
+    color: rgba(0, 0, 0, 0.195);
+    width: 30%;
+    border: none;  
+    color: none;
+    margin-bottom: 5px;
+}
+/* CSS property for button */
+button{
+    color: white;
+    background-color: rgb(212, 88, 35);
+    border: none;
+    border-radius: 5px;   
+    margin-top: 10px;
+    width: 80px;
+    height: 25px;
+    display: block  ;
+}

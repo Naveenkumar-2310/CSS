@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(142, 247, 247);
+}
+h3{
+    text-align: center;  
+}
+.ball{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(243, 76, 243);
+    border-radius: 50%;
+    margin: 0 auto;
+    animation-name: bounce;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes bounce{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(0,100px,0);
+    }
+}
